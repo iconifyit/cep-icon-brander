@@ -1,0 +1,84 @@
+<!--
+/**
+ * @author Scott Lewis <scott@atomiclotus.net>
+ * @copyright 2019 Scott Lewis
+ * @version 1.0.0
+ * @url http://github.com/iconifyit
+ * @url https://atomiclotus.net
+ *
+ * ABOUT:
+ *
+ *    This script is a very basic boilerplate for Adobe CEP extensions.
+ *
+ * NO WARRANTIES:
+ *
+ *   You are free to use, modify, and distribute this script as you see fit.
+ *   No credit is required but would be greatly appreciated.
+ *
+ *   THIS SCRIPT IS OFFERED AS-IS WITHOUT ANY WARRANTY OR GUARANTEES OF ANY KIND.
+ *   YOU USE THIS SCRIPT COMPLETELY AT YOUR OWN RISK AND UNDER NO CIRCUMSTANCES WILL
+ *   THE DEVELOPER AND/OR DISTRIBUTOR OF THIS SCRIPT BE HELD LIABLE FOR DAMAGES OF
+ *   ANY KIND INCLUDING LOSS OF DATA OR DAMAGE TO HARDWARE OR SOFTWARE. IF YOU DO
+ *   NOT AGREE TO THESE TERMS, DO NOT USE THIS SCRIPT.
+ */
+ -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CEP Boilerplate | Atomic Lotus</title>
+        <!-- Topcoat -->
+        <link rel="stylesheet" type="text/css" href="theme/icons-0.2.0/font/icomatic.css" />
+        <link rel="stylesheet" type="text/css" href="theme/font/stylesheet.css">
+        <link rel="stylesheet" type="text/css" href="theme/css/topcoat-desktop-dark.css">
+        <link rel="stylesheet" type="text/css" href="theme/css/main.css">
+        <link rel="stylesheet" type="text/css" href="theme/css/brackets.css"><!--[if lt IE 9]>
+        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+        <!-- /Topcoat -->
+        <link rel="stylesheet" href="theme/style.css">
+
+        <link rel="stylesheet" type="text/css" href="theme/progressbar/progressbar.css">
+
+        <!-- Icomatic Icons -->
+        <script src="theme/icons-0.2.0/font/icomatic.js"></script>
+        <script> window.onload = function() { IcomaticUtils.run(); } </script>
+    </head>
+    <body>
+        <section class="messages"></section>
+        <section class="folder-field icons">
+            <button id="folder-button" class="topcoat-icon-button--large">
+                <div class="icomatic icon">folder</div>
+            </button>
+            <input id="source-folder" type="text" name="source" value="" size="38" class="topcoat-text-input--large" readonly>
+        </section>
+        <section class="buttons icons">
+            <button id="import-button" class="topcoat-button--large--cta">Import</button>
+        </section>
+
+        <!--
+        <section>
+            <button id="cancel-button" class="topcoat-button--large">Cancel</button>
+        </section>
+        -->
+
+        <!--scripts-->
+        <script>if (typeof module === 'object')  { window.module = module; module = undefined; }</script>
+        <script>if (typeof exports === 'object') { window.exports = exports; exports = undefined; }</script>
+
+        <script src="lib/jquery.3.3.1.min.js"></script>
+        <script src="lib/JSX.js"></script>
+        <script src="lib/CSInterface.js"></script>
+        <script>window.csInterface = new CSInterface();</script>
+        <script src="lib/jsx-console/jsx-console.js"></script>
+        <script src="../host/Atomic.js"></script>
+        <script src="../host/Helpers.jsx"></script>
+        <script src="lib/FlyoutMenu.js"></script>
+
+        <script src="theme/progressbar/Progressbar.js"></script>
+
+        <script src="Client.js"></script>
+
+        <script>if (window.module) module = window.module;</script>
+        <script>if (window.exports) exports = window.exports;</script>
+    </body>
+</html>
