@@ -1,0 +1,69 @@
+<!-- ------------------ DROP-ZONE ------------------ -->
+        <div class="dropzone" id="dropzone" ondrop="console.log('Dropped');">
+            <p>Drop page items here</p>
+        </div>
+        <script>
+
+            // var $body   = $('body'),
+            //     $window = $(window);
+
+            // $('<p><input type="text" name="pastebin" class="topcoat-text-input--large" id="pastebin"></p>')
+            //     .insertAfter($("#search").eq(0))
+            // .appendTo($body);
+            // $(
+            //     '<div class="dropzone" id="dropzone">\n' +
+            //     '    <p>Drop page items here</p>\n' +
+            //     '</div>'
+            // ).insertAfter($('.buttons').eq(0));
+
+            window.addEventListener("drop", event => {
+
+                console.log('Dropped');
+
+                // event.preventDefault();
+
+                Client.host('copyIcon', function(result) {
+                    console.log(result);
+
+                    try {
+                        var svg,
+                            $icons  = $("#icons"),
+                            $paste  = $("#pastebin"),
+                            $li     = $('<li/>'),
+                            $svg    = $('<svg/>');
+
+                        $("#search").focus();
+
+                        document.execCommand("paste");
+
+                        svg = $paste.val();
+                        $(svg).appendTo($li);
+                        $li.prependTo($icons);
+
+                        // $paste.val('');
+                    }
+                    catch(e) {
+                        console.error(e);
+                    }
+                });
+            });
+
+        </script>
+        <style>
+            .dropzone {
+                width : 220px;
+                padding: 20px;
+                background-color: #aaa;
+                border : 4px dashed #888;
+                border-radius: 6px;
+                text-align : center;
+                height : 50px;
+                line-height : 25px;
+            }
+            .dropzone:hover {
+                background-color: #bbb;
+                border-color : #555;
+                cursor : move;
+            }
+        </style>
+        <!-- ------------------ /DROP-ZONE ------------------ -->

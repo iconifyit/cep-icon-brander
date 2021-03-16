@@ -1,0 +1,60 @@
+[
+    {
+        "type": "CompItem",
+        "index": 0,
+        "id": 1,
+        "name": "Comp 1",
+        "frameRate": 29.9700012207031,
+        "width": 1920,
+        "height": 1080,
+        "layers": [
+            {
+                "index": 81,
+                "propertyType": "PROPERTY",
+                "name": "X Position",
+                "matchName": "ADBE Position_0",
+                "numKeys": 2,
+                "keyFrames": [
+                    {
+                        "index": 1,
+                        "keyTime": 0.33366700033367,
+                        "keyValue": 750,
+                        "easingBezier": [],
+                        "keyInTemporalEase": [
+                            {
+                                "influence": 50,
+                                "speed": 0
+                            }
+                        ],
+                        "keyOutTemporalEase": [
+                            {
+                                "influence": 50,
+                                "speed": 50
+                            }
+                        ]
+                    },
+                    {
+                        "index": 2,
+                        "keyTime": 1.001001001001,
+                        "keyValue": 1500,
+                        "easingBezier": [],
+                        "keyInTemporalEase": [
+                            {
+                                "influence": 50,
+                                "speed": 25
+                            }
+                        ],
+                        "keyOutTemporalEase": [
+                            {
+                                "influence": 50,
+                                "speed": 0
+                            }
+                        ]
+                    }
+                ],
+                "propertyValueType": 6417
+            }
+        ],
+        "numLayers": 1
+    }
+]

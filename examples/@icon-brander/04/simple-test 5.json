@@ -1,0 +1,151 @@
+[
+    {
+        "type": "CompItem",
+        "index": 0,
+        "id": 1,
+        "name": "Comp 1",
+        "frameRate": 29.9700012207031,
+        "width": 1920,
+        "height": 1080,
+        "layers": [
+            {
+                "type": "Layer",
+                "index": 1,
+                "name": "Shape Layer 1",
+                "matchName": "ADBE Vector Layer",
+                "numProperties": 10,
+                "properties": [
+                    {
+                        "index": 80,
+                        "propertyType": "PROPERTY",
+                        "name": "Position",
+                        "matchName": "ADBE Position",
+                        "numKeys": 2,
+                        "keyFrames": [
+                            {
+                                "index": 1,
+                                "keyTime": 0.33366700033367,
+                                "keyValue": [
+                                    750,
+                                    500,
+                                    0
+                                ],
+                                "easingBezier": [
+                                    [
+                                        0.16666666667,
+                                        0,
+                                        0.16666666667,
+                                        11.23875
+                                    ]
+                                ],
+                                "keyInTemporalEase": [
+                                    {
+                                        "influence": 16.666666667,
+                                        "speed": 0
+                                    }
+                                ],
+                                "keyOutTemporalEase": [
+                                    {
+                                        "influence": 16.666666667,
+                                        "speed": 1123.875
+                                    }
+                                ]
+                            },
+                            {
+                                "index": 2,
+                                "keyTime": 1.001001001001,
+                                "keyValue": [
+                                    1500,
+                                    500,
+                                    0
+                                ],
+                                "easingBezier": [
+                                    [
+                                        0.16666666667,
+                                        11.23875,
+                                        0.16666666667,
+                                        0
+                                    ]
+                                ],
+                                "keyInTemporalEase": [
+                                    {
+                                        "influence": 16.666666667,
+                                        "speed": 1123.875
+                                    }
+                                ],
+                                "keyOutTemporalEase": [
+                                    {
+                                        "influence": 16.666666667,
+                                        "speed": 0
+                                    }
+                                ]
+                            }
+                        ],
+                        "propertyValueType": 6413
+                    },
+                    {
+                        "index": 81,
+                        "propertyType": "PROPERTY",
+                        "name": "X Position",
+                        "matchName": "ADBE Position_0",
+                        "numKeys": 2,
+                        "keyFrames": [
+                            {
+                                "index": 1,
+                                "keyTime": 0.33366700033367,
+                                "keyValue": 750,
+                                "easingBezier": [
+                                    [
+                                        0.5,
+                                        0,
+                                        0.5,
+                                        0.5
+                                    ]
+                                ],
+                                "keyInTemporalEase": [
+                                    {
+                                        "influence": 50,
+                                        "speed": 0
+                                    }
+                                ],
+                                "keyOutTemporalEase": [
+                                    {
+                                        "influence": 50,
+                                        "speed": 50
+                                    }
+                                ]
+                            },
+                            {
+                                "index": 2,
+                                "keyTime": 1.001001001001,
+                                "keyValue": 1500,
+                                "easingBezier": [
+                                    [
+                                        0.5,
+                                        0.25,
+                                        0.5,
+                                        0
+                                    ]
+                                ],
+                                "keyInTemporalEase": [
+                                    {
+                                        "influence": 50,
+                                        "speed": 25
+                                    }
+                                ],
+                                "keyOutTemporalEase": [
+                                    {
+                                        "influence": 50,
+                                        "speed": 0
+                                    }
+                                ]
+                            }
+                        ],
+                        "propertyValueType": 6417
+                    }
+                ]
+            }
+        ],
+        "numLayers": 1
+    }
+]
